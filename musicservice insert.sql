@@ -31,31 +31,32 @@ INSERT INTO album (title_album, year_of_issue) VALUES
     
  select * from album;
  
-INSERT INTO tracks (title_track, duration_track) VALUES
-    ('???????', 257),
-    ('?????? ????', 239),
-    ('Fire', 233),
-    ('Introduction', 117),
-    ('Yellow Submarine', 160),
-    ('Pepperland', 144),
-    ('Solo', 243),
-    ('Zanovo', 247),
-    ('????', 206),
-    ('??? ?????', 204),
-    ('Angel', 236),
-    ('Stay', 248),
-    ('Hello, dolly', 143),
-    ('Someday', 217),
-    ('White Christmas', 205),
-    ('Jingle Bells', 157);
+INSERT INTO tracks (title_track, duration_track, id_album) VALUES
+    ('Абордаж', 257, 17),
+    ('Черная луна', 239, 17),
+    ('Fire', 233, 18),
+    ('Yellow Submarine', 160, 19),
+    ('Pepperland', 144, 19),
+    ('Solo', 243, 20),
+    ('Zanovo', 247, 20),
+    ('Сияй', 206, 21),
+    ('Мой океан', 204, 21),
+    ('Angel', 236, 22),
+    ('Stay', 248, 22),
+    ('Hello, dolly', 143, 23),
+    ('Someday', 217, 23),
+    ('White Christmas', 205, 24),
+    ('Jingle Bells', 157, 24),
+    ('Hey Bulldog', 197, 19),
+    ('All You Need Is Love', 224, 19);
     
 select * from tracks;
 
 INSERT INTO collection (title_collection, year_of_issue) VALUES
-    ('????????', 2005),
+    ('Избраное', 2005),
     ('Best', 2000),
     ('All hits', 1980),
-    ('??????', 2018),
+    ('Лучшее', 2018),
     ('Remix', 2020),
     ('Hits', 1984),
     ('Favorites', 1985),
@@ -67,6 +68,7 @@ INSERT INTO singergenre (singer_id, genre_id) VALUES
     (17, 11),
     (18, 14),
     (19, 11),
+    (19, 13),
     (20, 12),
     (21, 13),
     (22, 13),
