@@ -27,7 +27,8 @@ INSERT INTO album (title_album, year_of_issue) VALUES
     ('Siyai', 2018),
     ('Like a Virgin', 1984),
     ('Hello, dolly', 1964),
-    ('Christmas Songs', 1948);
+    ('Christmas Songs', 1948),
+    ('Help!', 1965);
     
  select * from album;
  
@@ -48,7 +49,8 @@ INSERT INTO tracks (title_track, duration_track, id_album) VALUES
     ('White Christmas', 205, 24),
     ('Jingle Bells', 157, 24),
     ('Hey Bulldog', 197, 19),
-    ('All You Need Is Love', 224, 19);
+    ('All You Need Is Love', 224, 19),
+    ('Help!', 141, 25);
     
 select * from tracks;
 
@@ -85,7 +87,8 @@ INSERT INTO singeralbum (singer_id, album_id) VALUES
     (21, 21),
     (22, 22),
     (23, 23),
-    (24, 24);
+    (24, 24),
+    (18, 25);
    
 select * from singeralbum;
 
